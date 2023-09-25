@@ -1,0 +1,9 @@
+[openai]
+completion_model = "text-davinci-003"
+embedding_model = "text-embedding-ada-002"
+temperature = 0
+max_tokens = 500
+# openai_api_key = "OPENAI_KEY"
+max_section_len = 2000
+separator = "\n* "
+encoding = "gpt2"
