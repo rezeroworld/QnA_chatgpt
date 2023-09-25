@@ -2,7 +2,6 @@ import streamlit as st
 import openai
 from prompt_engineering import answer_query_with_context
 import toml
-import tiktoken
 import pandas as pd
 
 with open('config.toml', 'r') as f:

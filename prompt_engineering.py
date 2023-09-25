@@ -1,34 +1,6 @@
-import docx
 import numpy as np
-import pandas as pd
-import unicodedata
 import openai
-import os
-import time
 import tiktoken
-import toml
-
-'''
-with open('config.toml', 'r') as f:
-    config = toml.load(f)
-
-openai.api_key = os.getenv(config['openai']['openai_api_key'])
-encoding = tiktoken.get_encoding(config['openai']['encoding'])
-separator_len = len(encoding.encode(config['openai']['separator']))
-
-COMPLETIONS_API_PARAMS = {
-    # We use temperature of 0.0 because it gives the most predictable, factual answer.
-    
-}
-
-f"Context separator contains {separator_len} tokens"
-
-###################################################################################################################
-
-df = pd.read_csv('qa_embeddings.csv', index_col=0, header=0)
-q2embed = dict(zip(df.index, df.loc[:, df.columns != "answers"].to_numpy()))
-q2a = dict(zip(df.index, df.loc[:,df.columns == "answers"].to_numpy()))
-'''
 
 def get_embedding(text, config):
     result = openai.Embedding.create(
