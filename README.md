@@ -6,4 +6,4 @@ If you need more details about the processing of the book, you can check the tex
 
 ## App Link
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://chatllama-japjh9chtd5ygyyneheu6r.streamlit.app/)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://rezeroworld-qna-chatgpt-streamlit-app-tozg6n.streamlit.app/)
